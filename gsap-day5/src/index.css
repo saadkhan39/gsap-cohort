@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#root{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleWords,
+.titleChars {
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    font-family: monospace;
+    
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-family: monospace;
+    width: 70%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
